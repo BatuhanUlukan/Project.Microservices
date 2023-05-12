@@ -22,7 +22,7 @@ namespace Service.Catalog.Models
         public string Picture { get; set; }
 
         [BsonRepresentation(BsonType.DateTime)]
-        public DateTime dateTime { get; set; }
+        public DateTime DateTime { get; set; }
 
         [BsonRepresentation(BsonType.ObjectId)]
         public string CategoryId { get; set; }
